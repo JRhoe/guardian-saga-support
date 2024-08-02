@@ -1,10 +1,72 @@
+.container {
+    background-color: rgba(241, 240, 220, 0.219);
+} 
+
 .row {
     max-width: 1200px;
     margin: 0 auto;
     padding: 32px;
+    display: flex;
+    position: relative;
 }
 
-.title {
-    text-align: center;
-    font-size: 48px;
+.statement {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.statementTitle {
+    text-align: left;
+    font-size: clamp(24px,3.5vw,40px);
+    color: #30acff;
+}
+
+.statementPara {
+    text-align: left;
+    margin: 24px 0;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.statementLink {
+    color: black;
+    position: relative;
+    transition: all 300ms ease;
+    text-align: right;
+    text-decoration: none;
+}
+
+.statementLink:hover {
+    color:#30acff;
+    transform: translateX(-10px);
+}
+
+.statementLink:after {
+    content: " >";
+    color: #30acff;
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: all 300ms ease;
+    position: absolute;
+}
+
+.statementLink:hover:after {
+    opacity: 1;
+    transform: translateX(5px);
+}
+
+.imgCara {
+    max-width: 60%;
+    overflow-x: scroll;
+}
+
+.firstRow, .secondRow {
+    display: flex;
+}
+
+.missionCaraImg {
+    margin: 4px;
+    height: 300px;
 }
