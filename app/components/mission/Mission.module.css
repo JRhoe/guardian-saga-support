@@ -1,6 +1,6 @@
 .container {
-    background-color: rgba(241, 240, 220, 0.219);
-    margin-top: 120px;
+    background-color: rgba(241, 239, 220, 0.267);
+    padding: 120px 0;
 } 
 
 .row {
@@ -8,27 +8,40 @@
     margin: 0 auto;
     padding: 32px;
     display: flex;
-    position: relative;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.541);
+    border-radius: 20px;
+    padding: 16px;
+    background-color: white;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    /* color: #30acff; */
+    color: rgb(12, 36, 80);
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 64px;
 }
 
 .statement {
     max-width: 40%;
     display: flex;
     flex-direction: column;
-    padding: 24px;
-}
-
-.statementTitle {
-    text-align: left;
-    font-size: clamp(24px,3.5vw,40px);
-    color: #30acff;
+    padding: 40px;
 }
 
 .statementPara {
-    text-align: left;
-    margin: 24px 0;
-    line-height: 20px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 28px;
     font-weight: 300;
+    font-size: 24px;
 }
 
 .statementLink {
@@ -40,13 +53,17 @@
 }
 
 .statementLink:hover {
-    color:#30acff;
+    /* color:#30acff; */
+    /* color: rgb(12, 36, 80); */
+    color: black;
     transform: translateX(-10px);
 }
 
 .statementLink:after {
     content: " >";
-    color: #30acff;
+    /* color: #30acff; */
+    /* color: rgb(12, 36, 80); */
+    color: black;
     opacity: 0;
     transform: translateX(-10px);
     transition: all 300ms ease;
@@ -58,16 +75,25 @@
     transform: translateX(5px);
 }
 
-.imgCara {
+.imgCaraWrapper{
     max-width: 60%;
-    overflow-x: scroll;
 }
 
-.firstRow, .secondRow {
+.imgCara {
+    overflow-x: scroll;
+    border: 4px solid rgb(12, 36, 80);
+    border-radius: 20px;
+    padding: 8px;
     display: flex;
 }
+
+.imgCara::-webkit-scrollbar {
+    display: none;
+  }
 
 .missionCaraImg {
     margin: 4px;
     height: 300px;
+    width: auto;
+    border-radius: 20px;
 }

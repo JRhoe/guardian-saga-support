@@ -8,37 +8,47 @@ const Mission = () => {
     return (
         <div className={styles.container}>
             <div className={styles.row}>
-                <div className={styles.statement}>
-                    <h1 className={styles.statementTitle}>Training the next generation of Earth's guardians</h1>
-                    <p className={styles.statementPara}>We are a non-profit dedicated to providing underprivileged youth with empowering programs such as self-defense, 
-                        team building, and the great outdoors.  Our dream is to 
-                        equip the next generation with tools to build a future in which all people—and our Earth—thrive.</p>
-                    <Link 
-                    className={styles.statementLink}
-                    href="/">Learn more about how we help</Link>
-                </div>
-                {/* make this into a separate component */}
-                <div className={styles.imgCara}>
-                    <div className={styles.firstRow}>
-                        <Image
-                        src={img1}
-                        className={styles.missionCaraImg}
-                        />
-                        <Image
-                        src={img1}
-                        className={styles.missionCaraImg}
-                        />
+                <h1 className={styles.title}>Training the next generation of Earth's guardians</h1>
+                <div className={styles.main}>
+                    <div className={styles.statement}>
+                        <p className={styles.statementPara}>We are a non-profit dedicated to providing underprivileged youth with empowering programs such as self-defense, 
+                            team building, and the great outdoors.  Our dream is to 
+                            equip the next generation with tools to build a future in which all people—and our Earth—thrive.</p>
+                        <Link 
+                        className={styles.statementLink}
+                        href="/">Learn more about how we help</Link>
                     </div>
-                    <div className={styles.secondRow}>
-                        <Image
-                        src={img1}
-                        className={styles.missionCaraImg}
-                        />
-                        <Image
-                        src={img1}
-                        className={styles.missionCaraImg}
-                        />
+                    {/* make this into a separate component */}
+                    <div className={styles.imgCaraWrapper}>
+                        <div className={styles.imgCara}>
+                                <Image
+                                src={img1}
+                                className={styles.missionCaraImg}
+                                />
+                                <Image
+                                src={img1}
+                                className={styles.missionCaraImg}
+                                />
+                                <Image
+                                src={img1}
+                                className={styles.missionCaraImg}
+                                />
+                                <Image
+                                src={img1}
+                                className={styles.missionCaraImg}
+                                />
+                            </div>
                     </div>
+                        {/* <div className={styles.secondRow}>
+                            <Image
+                            src={img1}
+                            className={styles.missionCaraImg}
+                            />
+                            <Image
+                            src={img1}
+                            className={styles.missionCaraImg}
+                            />
+                        </div> */}
                 </div>
             </div>
         </div>

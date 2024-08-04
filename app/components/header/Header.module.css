@@ -23,4 +23,5 @@
 .headerText {
     font-size: clamp(30px,5vw,75px);
     font-weight: 900;
+    color: rgb(10, 16, 27);
 }

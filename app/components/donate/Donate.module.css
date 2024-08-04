@@ -1,0 +1,57 @@
+.container {
+    padding: 120px 0;
+    background-color: rgba(241, 239, 220, 0.267);
+}
+
+.row {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.donateContainer {
+    background-color: white;
+    width: 80%;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 20px;
+    padding: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(12, 36, 80);
+}
+
+.btn {
+    padding: 16px 32px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+}
+
+.donateBtn {
+    background-color: rgb(12, 36, 80);
+    color: white;
+    border: 1.5px solid white;
+    transition: all 200ms ease-in-out;
+    padding: 20px 44px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.donateBtn:hover {
+    background-color: white;
+    color: rgb(12, 36, 80);
+}
+
+.learnBtn {
+    color: white;
+    background-color: rgba(41, 41, 41, 0.877);
+    transition: all 200ms ease-in-out;
+}
+
+.learnBtn:hover {
+    background-color: rgb(24,24,24);
+    color: white;
+}
