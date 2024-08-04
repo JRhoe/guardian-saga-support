@@ -9,18 +9,15 @@ import gsap from "gsap";
 const Header = () => {
     const tl = gsap.timeline()
     useGSAP(() => {
-        tl.from("#headerMain", {
-            x: 0,
+        tl.to("#practical", {
+            x: "0",
         })
-        tl.from("#practical", {
-            x: "-100vw",
-        })
-        tl.from("#powerful", {
-            x: "-100vw",
-        })
-        tl.from("#meaningful", {
-            x: "-100vw",
-        })
+        tl.to("#powerful", {
+            x: "0",
+        },0.2)
+        tl.to("#meaningful", {
+            x: "0",
+        },0.3)
     },[])
 
     return (
@@ -38,6 +35,10 @@ const Header = () => {
                     <h1 id="powerful" className={styles.headerText}>Powerful.</h1>
                     <h1 id="meaningful" className={styles.headerText}>Meaningful.</h1>
                 </div>
+                <a href="#mission"><div className={styles.scrollContainer}>
+                    <div className={styles.scrollInner}></div>
+                </div>
+                </a>
             </div>
         </div>
     );

@@ -1,0 +1,46 @@
+
+.container {
+    background-color: rgba(241, 239, 220, 0.267);
+    padding: 120px 0;
+} 
+
+.row {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutPraxeum, .aboutWorkshop {
+    margin: 24px 0;
+    max-width: 800px;
+}
+
+.title {
+    text-align: left;
+    font-size: 40px;
+    /* color: #30acff; */
+    color: rgb(12, 36, 80);
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+.bannerImg {
+    height: 250px;
+    width: auto;
+}
+
+.bannerMain {
+    display: flex;
+    animation: bannerMovement 60s infinite linear;
+}
+
+@keyframes bannerMovement {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-62.5%);
+    }
+}

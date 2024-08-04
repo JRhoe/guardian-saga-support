@@ -14,7 +14,7 @@
 .donateContainer {
     background-color: white;
     width: 80%;
-    box-shadow: 5px 5px 20px black;
+    box-shadow: 0px 0px 30px black;
     border-radius: 20px;
     padding: 80px;
     display: flex;
@@ -35,9 +35,9 @@
     color: white;
     border: 1.5px solid white;
     transition: all 200ms ease-in-out;
-    padding: 20px 44px;
+    /* padding: 20px 44px;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 400; */
 }
 
 .donateBtn:hover {

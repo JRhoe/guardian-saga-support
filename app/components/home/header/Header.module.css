@@ -1,0 +1,62 @@
+.container {
+    /* min-height: calc(100vh - 60px); */
+}
+
+.row {
+    position: relative;
+}
+
+.mainImgWrapper {
+    height: calc(100vh - 60px);
+}
+
+.mainImg {
+    object-fit: cover;
+}
+
+.headerContainer {
+    color: black;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.headerText {
+    font-size: clamp(30px,5vw,75px);
+    font-weight: 900;
+    color: rgb(10, 16, 27);
+    transform: translateX(-100vw);
+}
+
+.scrollContainer {
+    position: absolute;
+    height: 30px;
+    width: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.scrollInner {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 100%;
+    animation: scroll 1000ms infinite alternate-reverse;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(5px);
+  }
+
+  100% {
+    transform: translateY(15px);
+  }
+}

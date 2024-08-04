@@ -53,17 +53,13 @@
 }
 
 .statementLink:hover {
-    /* color:#30acff; */
-    /* color: rgb(12, 36, 80); */
-    color: black;
+    color: rgb(12, 36, 80);
     transform: translateX(-10px);
 }
 
 .statementLink:after {
     content: " >";
-    /* color: #30acff; */
-    /* color: rgb(12, 36, 80); */
-    color: black;
+    color: rgb(12, 36, 80);
     opacity: 0;
     transform: translateX(-10px);
     transition: all 300ms ease;
@@ -84,6 +80,7 @@
     border: 4px solid rgb(12, 36, 80);
     border-radius: 20px;
     padding: 8px;
+    padding-right: 0;
     display: flex;
 }
 
@@ -91,9 +88,26 @@
     display: none;
   }
 
-.missionCaraImg {
-    margin: 4px;
-    height: 300px;
-    width: auto;
-    border-radius: 20px;
+.bannerWrapper {
+    overflow-x: hidden;
+    border-radius: 20px 0 0 20px;
+}
+
+.bannerMain {
+    display: flex;
+    animation: bannerMovement 30s infinite linear;
+}
+
+.bannerImg {
+    height: 300px
+}
+
+@keyframes bannerMovement {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-223%);
+    }
 }

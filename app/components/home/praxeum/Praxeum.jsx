@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './Praxeum.module.css';
 import Image from 'next/image';
-import functionalImg from "../../../public/PraxeumPics/Functional.jpg"
-import collegeImg from "../../../public/PraxeumPics/College.jpg"
-import teamImg from "../../../public/PraxeumPics/Team.jpg"
+import functionalImg from "../../../../public/PraxeumPics/Functional.jpg"
+import collegeImg from "../../../../public/PraxeumPics/College.jpg"
+import teamImg from "../../../../public/PraxeumPics/Team.jpg"
 
 const Praxeum = () => {
     return (
