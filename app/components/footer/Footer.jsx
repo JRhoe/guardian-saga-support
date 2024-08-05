@@ -19,9 +19,9 @@ const Footer = () => {
                         </Link>
                     </li>
                     <li className={styles.navListItem}>
-                        <Link className={styles.navLink} href="/contactus">
+                        <a className={styles.navLink} href="/about#contact">
                             Contact Us
-                        </Link>
+                        </a>
                     </li>
                     <li className={styles.navListItem}>
                         <a 

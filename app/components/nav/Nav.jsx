@@ -7,25 +7,25 @@ const Nav = () => {
         <div className={styles.navHolder}>
             <nav className={styles.nav}>
                 <div className={styles.logo}>
-                    Guardian Saga Support
+                    <Link href="/" className={styles.logoLink}>Guardian Saga Support</Link>
                 </div>
-                <ul className={styles.navList}>
-                    <li className={styles.navListItem}>
-                        <Link href="/" className={styles.navLink}>Home</Link>
-                    </li>
-                    <li className={styles.navListItem}>
-                        <Link href="/about" className={styles.navLink}>About Us</Link>
-                    </li>
-                    <li className={styles.navListItem}>
-                        <Link href="/partnerships" className={styles.navLink}>Partnership</Link>
-                    </li>
-                    <li className={styles.navListItem}>
-                        <Link href="/" className={styles.navLink}>Articles</Link>
-                    </li>
-                    <li className={styles.navListItem}>
-                        <Link href="/contactus" className={styles.navLink}>Contact Us</Link>
-                    </li>
-                </ul>
+                <div className={styles.navList}>
+                    <div className={`${styles.navListItem} ${styles.storyLink}`}>
+                        <a href="/#ourStory" className={styles.navLink}>Our Story</a>
+                        <div className={styles.storyDropdown}>
+                            <Link href="/about" className={styles.navLink}>About Us</Link>
+                        </div>
+                    </div>
+                    <div className={styles.navListItem}>
+                        <Link href="/ourwork" className={styles.navLink}>Our Work</Link>
+                    </div>
+                    <div className={styles.navListItem}>
+                        <Link href="/" className={styles.navLink}>Our Impact</Link>
+                    </div>
+                    <div className={styles.navListItem}>
+                        <a href="https://www.paypal.com/donate/?hosted_button_id=MYEANUWFB5PYC" target='_blank' className={styles.navLink}>Your Support</a>
+                    </div>
+                </div>
             </nav>
         </div>
     );

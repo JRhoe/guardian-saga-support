@@ -1,0 +1,59 @@
+.person {
+    max-width: 500px;
+    padding: 16px;
+    border: 2px solid rgb(12, 36, 80);
+    border-radius: 10px;
+    margin: 24px;
+}
+
+.header {
+    display: flex;
+}
+
+.pfpWrapper {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.pfpImg {
+    width: 100%;
+    height: auto;
+    scale: 1.1;
+}
+
+.info {
+    padding: 24px;
+}
+
+.name {
+    color: rgb(12, 36, 80);
+}
+
+.title {
+    margin-top: 24px;
+}
+
+.email {
+    margin-top: 8px;
+}
+
+.main {
+    padding: 24px;
+}
+
+.para {
+    margin-top: 16px;
+}
+
+@media (max-width: 654px) {
+    .header {
+       flex-direction: column;
+    }   
+
+    .pfpWrapper {
+        width: 80%;
+        height: 300px;
+    }
+}
