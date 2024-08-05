@@ -30,7 +30,7 @@ const Header = () => {
                     fill
                     alt="bgImage"/>
                 </figure>
-                <div className={styles.overlay}></div>
+                {/* <div className={styles.overlay}></div> */}
                 <div id="headerMain" className={styles.headerContainer}>
                     <h1 id="practical" className={styles.headerText}>Practical.</h1>
                     <h1 id="powerful" className={styles.headerText}>Powerful.</h1>

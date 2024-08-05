@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./Mission.module.css"
-import banner from "../../../../public/partnerships banner.png"
+import banner from "../../../../public/partnerships banner.jpg"
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -8,7 +8,7 @@ const Mission = () => {
     return (
         <div id="mission" className={styles.container}>
             <div className={styles.row}>
-                <h1 className={styles.title}>Training the next generation of Earth's guardians</h1>
+                <h1 className={styles.title}>Training the next generation of Earth&apos;s guardians</h1>
                 <div className={styles.main}>
                     <div className={styles.statement}>
                         <p className={styles.statementPara}>We are a non-profit dedicated to providing underprivileged youth with empowering programs such as self-defense, 
@@ -25,10 +25,12 @@ const Mission = () => {
                                 <div className={styles.bannerMain}>
                                     <Image
                                     className={styles.bannerImg}
-                                    src={banner}></Image>
+                                    src={banner}
+                                    alt=''></Image>
                                     <Image
                                     className={styles.bannerImg}
-                                    src={banner}></Image>
+                                    src={banner}
+                                    alt=''></Image>
                                 </div>
                             </div>
                         </div>

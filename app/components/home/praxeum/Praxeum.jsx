@@ -15,7 +15,8 @@ const Praxeum = () => {
                         <figure className={styles.praxImgWrapper}>
                             <Image
                             className={styles.praxImg}
-                            src={functionalImg}/>
+                            src={functionalImg}
+                            alt='Super Functional'/>
                         </figure>
                         <div className={styles.sectionText}>
                             <h1>Super Fun-ctional</h1>
@@ -25,7 +26,8 @@ const Praxeum = () => {
                         <figure className={styles.praxImgWrapper}>
                             <Image
                             className={styles.praxImg}
-                            src={teamImg}/>
+                            src={teamImg}
+                            alt='More team work'/>
                         </figure>
                         <div className={styles.sectionText}>
                             <h1>More Team</h1>
@@ -36,7 +38,8 @@ const Praxeum = () => {
                         <figure className={styles.praxImgWrapper}>
                             <Image
                             className={styles.praxImg}
-                            src={collegeImg}/>
+                            src={collegeImg}
+                            alt='Impress Colleges'/>
                         </figure>
                         <div className={styles.sectionText}>
                             <h1>Impress Colleges</h1>

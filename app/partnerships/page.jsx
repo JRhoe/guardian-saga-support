@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./page.module.css"
-import banner from "../../public/partnerships banner.png"
+import banner from "../../public/partnerships banner.jpg"
 import Image from 'next/image';
 
 const Page = () => {
@@ -9,13 +9,16 @@ const Page = () => {
         <div className={styles.bannerMain}>
             <Image
             className={styles.bannerImg}
-            src={banner}/>
+            src={banner}
+            alt=''/>
             <Image
             className={styles.bannerImg}
-            src={banner}/>
+            src={banner}
+            alt=''/>
             <Image
             className={styles.bannerImg}
-            src={banner}/>
+            src={banner}
+            alt=''/>
         </div>
         <div className={styles.container}>
             <div className={styles.row}>
@@ -36,7 +39,7 @@ const Page = () => {
                             highest rates of substance abuse, suicide, and violence.  To help, we run free outreach 
                             programs for these at-risk communities across North America.  We always knew it would be
                              beneficial for any youth to learn Guardian Art, but its impact on Native communities is 
-                             beyond what we expected.  It’s been akin to the rewilding effect 
+                             beyond what we expected.  It&apos;s been akin to the rewilding effect 
                              of wolves in Yellowstone, as our outreach programs have:
                         </p>
                         <ul>
@@ -49,12 +52,12 @@ const Page = () => {
                         <p>These outreach programs continue to grow with more support 
                             from our members through tuition, donations, and volunteer work.  
                             And as part of our curriculum, advanced students travel the world to 
-                            directly help these communities – gaining valuable experiences.</p>
+                            directly help these communities - gaining valuable experiences.</p>
                         <p className={styles.subtitle}>Part 3: Saving the Future</p>
                         <br/>
                         <p>Since time immemorial, Indigenous people have been caretakers of the environment. 
-                             And despite making up just 5% of today’s world population, they still protect 80% 
-                             of the Earth’s biodiversity.  Their traditional culture and knowledge are key to a 
+                             And despite making up just 5% of today&apos;s world population, they still protect 80% 
+                             of the Earth&apos;s biodiversity.  Their traditional culture and knowledge are key to a 
                              sustainable future for all.  Therefore, we are currently working hard to set up 
                              cultural preserves to allow for land and cultural conservation on a larger scale.</p>
                     </div>
