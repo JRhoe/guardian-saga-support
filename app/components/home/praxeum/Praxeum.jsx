@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Praxeum.module.css';
 import Image from 'next/image';
-import selfdefenseImg from "../../../../public/PraxeumPics/SelfDefense.jpg"
+import selfdefenseImg from "../../../../public/PraxeumPics/SelfDefense.JPG"
 import outdoorsImg from "../../../../public/PraxeumPics/Outdoors.jpg"
 import teamImg from "../../../../public/PraxeumPics/Team.jpg"
 
