@@ -7,7 +7,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const Header = () => {
-    const tl = gsap.timeline()
+    const tl = gsap.timeline({delay:0.5})
     useGSAP(() => {
         tl.to("#practical", {
             x: "0",
@@ -17,7 +17,7 @@ const Header = () => {
         },0.2)
         tl.to("#meaningful", {
             x: "0",
-        },0.3)
+        },0.4)
     },[])
 
     return (
@@ -28,16 +28,18 @@ const Header = () => {
                     className={styles.mainImg}
                     src={bgImage}
                     fill
-                    alt="wiers"/>
+                    alt="bgImage"/>
                 </figure>
+                <div className={styles.overlay}></div>
                 <div id="headerMain" className={styles.headerContainer}>
                     <h1 id="practical" className={styles.headerText}>Practical.</h1>
                     <h1 id="powerful" className={styles.headerText}>Powerful.</h1>
                     <h1 id="meaningful" className={styles.headerText}>Meaningful.</h1>
                 </div>
-                <a href="#mission"><div className={styles.scrollContainer}>
-                    <div className={styles.scrollInner}></div>
-                </div>
+                <a href="#mission">
+                    <div className={styles.scrollContainer}>
+                        <div className={styles.scrollInner}></div>
+                    </div>
                 </a>
             </div>
         </div>

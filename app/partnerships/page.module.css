@@ -11,9 +11,15 @@
     justify-content: center;
 }
 
-.aboutPraxeum, .aboutWorkshop {
-    margin: 24px 0;
+.textSection {
+    margin: 64px 0;
     max-width: 800px;
+}
+
+.textDivider {
+    width: 80%;
+    background-color: black;
+    height: 3px;
 }
 
 .title {
@@ -22,12 +28,24 @@
     /* color: #30acff; */
     color: rgb(12, 36, 80);
     max-width: 600px;
-    margin-bottom: 40px;
+    margin-bottom: 16px;
+}
+
+.subtitle {
+    margin-top: 32px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #30ACFF;
+}
+
+.textSection ul {
+    margin: 16px 0;
+    padding-left: 32px;
 }
 
 .bannerImg {
-    height: 250px;
-    width: auto;
+    height: auto;
+    width: 80vw;
 }
 
 .bannerMain {
@@ -41,6 +59,6 @@
     }
 
     100% {
-        transform: translateX(-62.5%);
+        transform: translateX(-81%);
     }
 }

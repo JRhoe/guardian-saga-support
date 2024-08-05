@@ -14,12 +14,12 @@ const Footer = () => {
                         </Link>
                     </li>
                     <li className={styles.navListItem}>
-                        <Link className={styles.navLink} href="/">
+                        <Link className={styles.navLink} href="/about">
                             About Us
                         </Link>
                     </li>
                     <li className={styles.navListItem}>
-                        <Link className={styles.navLink} href="/">
+                        <Link className={styles.navLink} href="/contactus">
                             Contact Us
                         </Link>
                     </li>

@@ -1,0 +1,30 @@
+.row {
+    position: relative;
+}
+
+.mainImgWrapper {
+    height: calc(100vh - 60px);
+}
+
+.mainImg {
+    object-fit: cover;
+}
+
+.headerContainer {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(24,24,24,0.5);
+    width: 100vw;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.headerLocation {
+    font-size: 24px;
+}

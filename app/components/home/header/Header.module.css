@@ -1,6 +1,6 @@
-.container {
-    /* min-height: calc(100vh - 60px); */
-}
+/* .container {
+    min-height: calc(100vh - 60px);
+} */
 
 .row {
     position: relative;
@@ -12,6 +12,15 @@
 
 .mainImg {
     object-fit: cover;
+}
+
+.overlay {
+    background-color: rgb(24, 24, 24, 0.1);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: calc(100vh - 60px);
 }
 
 .headerContainer {
