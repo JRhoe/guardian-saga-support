@@ -10,20 +10,30 @@ const Nav = () => {
                     <Link href="/" className={styles.logoLink}>Guardian Saga Support</Link>
                 </div>
                 <div className={styles.navList}>
-                    <div className={`${styles.navListItem} ${styles.storyLink}`}>
+                    <div className={`${styles.navListItem} ${styles.dropdownLink}`}>
                         <a href="/#ourStory" className={styles.navLink}>Our Story</a>
-                        <div className={styles.storyDropdown}>
+                        <div className={styles.dropdownWrapper}>
                             <Link href="/about" className={styles.navLink}>About Us</Link>
                         </div>
                     </div>
                     <div className={styles.navListItem}>
                         <Link href="/ourwork" className={styles.navLink}>Our Work</Link>
                     </div>
-                    <div className={styles.navListItem}>
-                        <Link href="/" className={styles.navLink}>Our Impact</Link>
+                    <div className={`${styles.navListItem} ${styles.dropdownLink}`}>
+                        <Link href="" className={styles.navLink}>Our Impact</Link>
+                        <div className={styles.dropdownWrapper}>
+                            <div className={styles.dropListItem}><Link href="" className={styles.navLink}>Blog</Link></div>
+                            <div className={styles.dropListItem}><Link href="" className={styles.navLink}>Timeline</Link></div>
+                        </div>
                     </div>
-                    <div className={styles.navListItem}>
-                        <a href="https://www.paypal.com/donate/?hosted_button_id=MYEANUWFB5PYC" target='_blank' className={styles.navLink}>Your Support</a>
+                    <div className={`${styles.navListItem} ${styles.dropdownLink}`}>
+                        <p className={styles.navLink}>Your Support</p>
+                        <div className={styles.dropdownWrapper}>
+                            <div className={styles.dropListItem}><a href="https://www.paypal.com/donate/?hosted_button_id=MYEANUWFB5PYC" target='_blank' className={styles.navLink}>Donate</a></div>
+                            <div className={styles.dropListItem}><Link href="" className={styles.navLink}>Volunteer</Link></div>
+                            <div className={styles.dropListItem}><Link href="" className={styles.navLink}>Partnership</Link></div>
+                            <div className={styles.dropListItem}><a href="/about#contact" className={styles.navLink}>Contact Us</a></div>
+                        </div>
                     </div>
                 </div>
             </nav>

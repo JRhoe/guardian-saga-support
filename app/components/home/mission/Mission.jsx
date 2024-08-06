@@ -8,15 +8,18 @@ const Mission = () => {
     return (
         <div id="mission" className={styles.container}>
             <div className={styles.row}>
-                <h1 className={styles.title}>Training the next generation of Earth&apos;s guardians</h1>
+                <h1 className={styles.title}>Making Future Guardians</h1>
                 <div className={styles.main}>
                     <div className={styles.statement}>
-                        <p className={styles.statementPara}>We are a non-profit dedicated to providing underprivileged youth with empowering programs such as self-defense, 
+                        <p className={styles.statementPara}>
+                            We are a non-profit dedicated to providing underserved 
+                            youth with empowering programs such as self-defense, 
                             team building, and the great outdoors.  Our dream is to 
-                            equip the next generation with tools to build a future in which all people—and our Earth—thrive.</p>
+                            equip the next generation with tools to become Earth&apos;s 
+                            future guardians.</p>
                         <Link 
                         className={styles.statementLink}
-                        href="/">Learn more about how we help</Link>
+                        href="/ourwork">Learn more about how we help</Link>
                     </div>
                     {/* make this into a separate component */}
                     <div className={styles.imgCaraWrapper}>

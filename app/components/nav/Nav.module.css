@@ -76,27 +76,34 @@
     left: 0;
 }
 
-.storyLink {
+.dropdownLink {
     position: relative;
 }
 
-.storyDropdown {
+.dropListItem {
+    margin-top: 8px;
+}
+
+.dropdownWrapper {
     background-color: rgba(24, 24, 24);
     position: absolute;
     top: 60px;
     left:0;
     width: 100%;
-    padding: 0 24px;
+    padding: 4px 24px;
     padding-bottom: 16px;
-    z-index: 2;
+    z-index: -2;
     opacity: 0;
     transition: all 200ms ease;
+    border: 3px solid rgba(12, 36, 80,0.5);
+    border-top: none;
 }
 
-.storyLink:hover .storyDropdown {
+.dropdownLink:hover .dropdownWrapper {
     opacity: 1;
+    z-index: 2;
 }
 
-.storyDropdown .navLink {
+.dropdownWrapper .navLink {
     font-size: 14px;
 }
