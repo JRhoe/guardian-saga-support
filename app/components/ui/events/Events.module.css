@@ -1,0 +1,82 @@
+.eventContainer {
+    padding: 24px 40px;
+    width: 50%;
+    position: relative;
+    animation: moveEvent 2s forwards;
+    opacity: 0;
+}
+
+.textSpace {
+    background-color: white;
+    border-radius: 20px;
+    padding: 24px;
+}
+
+.para {
+    margin-top: 16px;
+}
+
+.linkWrapper {
+    margin-top: 8px;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.right {
+    left:50%
+}
+
+.eventCircle {
+    height: 32px;
+    width: 32px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+.left .eventCircle {
+    right: -18px;
+}
+
+.right .eventCircle {
+    left: -14px;
+}
+
+.eventArrow {
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 30%;
+}
+
+.left .eventArrow {
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid white;
+    right: 25px;
+}
+
+.right .eventArrow {
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid white;
+    left: 25px;
+}
+
+@keyframes moveEvent {
+    0% {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

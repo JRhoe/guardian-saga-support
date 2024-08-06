@@ -1,0 +1,42 @@
+.container {
+    background-color: rgba(241, 239, 220, 0.267);
+    padding: 64px 0;
+} 
+
+.row {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 32px;
+}
+
+.mainTitle {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+
+.mainSubTitle {
+    margin: 32px 0 16px 0;
+}
+
+.mainPara a {
+    color: blue;
+}
+
+.mainParaList {
+    padding-left: 24px;
+}
+
+.mainParaList ul {
+    padding-left: 32px;
+}
+
+.mainParaList li {
+    margin: 8px;
+}
+
+.email {
+    text-decoration: underline;
+}

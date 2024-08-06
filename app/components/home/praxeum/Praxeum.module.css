@@ -48,7 +48,7 @@
 }
 
 .sectionText {
-    background-color: rgba(6, 17, 39, 0.4);
+    /* background-color: rgba(6, 17, 39, 0.4); */
     padding: 8px;
     text-align: center;
     color: white;
@@ -56,9 +56,10 @@
     bottom: 10%;
     left: 50%;
     transform: translateX(-50%);
-    width: 70%;
+    width: 100%;
     transition: all 600ms ease;
     transition-delay: 200ms;
+    border-radius: 10px;
 }
 
 .sectionText h1 {

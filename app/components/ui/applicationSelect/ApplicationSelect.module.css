@@ -1,0 +1,146 @@
+.selectWrapper {
+    width: calc((100%/2) - 32px);
+    margin: 16px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 0px 20px black;
+    position: relative;
+    overflow: hidden;
+    transition: all 200ms ease;
+}
+
+/* .selectWrapper:hover {
+    scale: 1.02;
+} */
+
+.img {
+    width: auto;
+    height: 100%;
+}
+
+.textWrapper{
+    position: absolute;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(24,24,24,0.2);
+    transition: all 300ms ease;
+}
+
+.selectWrapper:hover .textWrapper {
+    background-color: rgb(24,24,24,0.7);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.info {
+    color: white;
+    transform: translateY(200%);
+    transition: all 300ms ease;
+    opacity: 0;
+}
+
+.selectWrapper:hover .info {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.requirements {
+    padding-left: 24px;
+}
+
+.linkWrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.link {
+    text-align: center;
+    position: relative;
+    display: inline;
+    cursor: pointer;
+}
+
+.link:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    right: 0;
+    bottom: -3px;
+    transition: all 200ms ease;
+}
+
+.link:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.skeletonWrapper {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.3);
+    position: absolute;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skeletonTitle {
+    height: 20px;
+    width: 70%;
+    background-color: rgba(128, 128, 128, 0.7);
+    margin: 8px 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skeletonSubTitle {
+    height: 20px;
+    width: 50%;
+    background-color: rgba(128, 128, 128, 0.7);
+    margin: 8px 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skeletonPara {
+    height: 20px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.7);
+    margin: 8px 0;
+    overflow: hidden;
+}
+
+.skeletonLoader {
+    height: 100%;
+    width: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 30%;
+    /* animation: skeletonMovement infinite ; */
+    animation: skeletonMovement 1s infinite;
+}
+
+@keyframes skeletonMovement {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(100vw);
+    }
+}

@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from "./page.module.css"
-import Person from '../components/person/Person';
-import jamesImg from "../../public/JamesRhoe.jpg"
-import IsaacImg from "../../public/IsaacHe.jpg"
+import Person from '../../components/person/Person';
+import jamesImg from "../../../public/JamesRhoe.jpg"
+import IsaacImg from "../../../public/IsaacHe.jpg"
 
 const Page = () => {
     return (

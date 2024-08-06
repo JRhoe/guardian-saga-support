@@ -20,18 +20,18 @@ const Nav = () => {
                         <Link href="/ourwork" className={styles.navLink}>Our Work</Link>
                     </div>
                     <div className={`${styles.navListItem} ${styles.dropdownLink}`}>
-                        <Link href="" className={styles.navLink}>Our Impact</Link>
+                        <Link href="/timeline" className={styles.navLink}>Our Impact</Link>
                         <div className={styles.dropdownWrapper}>
+                            <div className={styles.dropListItem}><Link href="/timeline" className={styles.navLink}>Timeline</Link></div>
                             <div className={styles.dropListItem}><Link href="" className={styles.navLink}>Blog</Link></div>
-                            <div className={styles.dropListItem}><Link href="" className={styles.navLink}>Timeline</Link></div>
                         </div>
                     </div>
                     <div className={`${styles.navListItem} ${styles.dropdownLink}`}>
                         <p className={styles.navLink}>Your Support</p>
                         <div className={styles.dropdownWrapper}>
                             <div className={styles.dropListItem}><a href="https://www.paypal.com/donate/?hosted_button_id=MYEANUWFB5PYC" target='_blank' className={styles.navLink}>Donate</a></div>
-                            <div className={styles.dropListItem}><Link href="" className={styles.navLink}>Volunteer</Link></div>
-                            <div className={styles.dropListItem}><Link href="" className={styles.navLink}>Partnership</Link></div>
+                            <div className={styles.dropListItem}><Link href="/volunteer" className={styles.navLink}>Volunteer</Link></div>
+                            <div className={styles.dropListItem}><Link href="/partnership" className={styles.navLink}>Partnership</Link></div>
                             <div className={styles.dropListItem}><a href="/about#contact" className={styles.navLink}>Contact Us</a></div>
                         </div>
                     </div>
