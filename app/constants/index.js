@@ -6,25 +6,25 @@ import campImg from '../../public/PraxeumPics/Camp.jpg';
 export const applications = [
     {
         title: "Team Building Workshop",
-        requirements: ["Minimum of 8 attendees", "Ages 8-13 or Ages 14+", "Provide transpotation to San Jose, CA"],
+        requirements: ["Minimum of 8 attendees", "Ages 6+"],
         imgUrl: teamImg,
         link: "team"
     },
     {
         title: "Self-Defense Workshop",
-        requirements: ["Minimum of 12 attendees", "Ages 8-13 or Ages 14+", "Attended Team Building Workshop", "Each participant must have a partner of similar size"],
+        requirements: ["Minimum of 12 attendees", "Ages 8+", "All attendees must be within 4 years apart"],
         imgUrl: defenseImg,
         link: "defense"
     },
     {
         title: "Scolarship for Classes",
-        requirements: ["Attened at least one workshop", "Reliable transpotation", "Live within 15 minutes of San Jose, CA"],
+        requirements: ["Attend at least one workshop", "Reliable transportation", "Must be able to attend 2 classes per week"],
         imgUrl: classImg,
         link: "class"
     },
     {
         title: "Scholarships for Summer Camps",
-        requirements: ["Attended at least one workshop", "Reliable transpotation", "Ages 8-14"],
+        requirements: ["Attended at least one workshop", "Reliable transportation", "Ages 8-14"],
         imgUrl: campImg,
         link: "camp"
     },

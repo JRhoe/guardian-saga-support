@@ -32,9 +32,9 @@ const Header = () => {
                 </figure>
                 {/* <div className={styles.overlay}></div> */}
                 <div id="headerMain" className={styles.headerContainer}>
-                    <h1 id="practical" className={styles.headerText}>Practical.</h1>
-                    <h1 id="powerful" className={styles.headerText}>Powerful.</h1>
-                    <h1 id="meaningful" className={styles.headerText}>Meaningful.</h1>
+                    <h1 id="practical" className={styles.headerText}>Making</h1>
+                    <h1 id="powerful" className={styles.headerText}>Future</h1>
+                    <h1 id="meaningful" className={styles.headerText}>Guardians</h1>
                 </div>
                 <a href="#mission">
                     <div className={styles.scrollContainer}>

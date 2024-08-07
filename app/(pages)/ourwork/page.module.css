@@ -162,4 +162,12 @@
     .bannerMain {
         animation: mobileMovement 60s infinite linear;
     }
+    
+    .applicationWrapper {
+        padding: 0;
+    }
+
+    .row {
+        padding: 0;
+    }
 }
