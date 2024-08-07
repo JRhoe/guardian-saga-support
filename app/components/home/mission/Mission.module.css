@@ -131,6 +131,15 @@
 @media (max-width:576px) {
     .main {
         padding: 0;
+        border-radius: 0;
+    }
+
+    .row {
+        padding: 0;
+    }
+
+    .firstTitle {
+        padding: 0 16px;
     }
 
     .imgCara {

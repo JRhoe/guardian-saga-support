@@ -35,3 +35,9 @@
        justify-content: space-around;
     }   
 }
+
+@media (max-width: 576px) {
+    .row {
+        padding: 0 8px;
+    }
+}

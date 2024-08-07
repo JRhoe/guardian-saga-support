@@ -8,7 +8,7 @@ const Mission = () => {
     return (
         <div id="mission" className={styles.container}>
             <div className={styles.row}>
-                <h1 className={styles.title}>Making Future Guardians</h1>
+                <div className={styles.firstTitle}><h1 className={styles.title}>Making Future Guardians</h1></div>
                 <div className={styles.main}>
                     <div className={styles.statement}>
                         <p className={styles.statementPara}>

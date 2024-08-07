@@ -80,18 +80,18 @@ const Page = () => {
                 }
                 {
                     activeApp === "defense" &&
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5BONlP9y6koiwFACn9NxcRxuGZntopbEs_y4kGDm_aHwAFQ/viewform?embedded=true" 
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfKHrbJrrVsBgOOnkEkt6yZu2KJrnaPxdxxyWrTXpEgoze6zQ/viewform?embedded=true" 
                     width="100%" height="1969" frameBorder="0" marginHeight="0" marginWidth="0" onLoad={() => setLoading(false)}>Loading…</iframe>
                 }
                 {
                     activeApp === "class" &&
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5BONlP9y6koiwFACn9NxcRxuGZntopbEs_y4kGDm_aHwAFQ/viewform?embedded=true" 
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf56kmyGNqMdkEz27A_A3t9-WmI3Iqn5Mmp7EHe3NjQax3BxQ/viewform?embedded=true" 
                     width="100%" height="1969" frameBorder="0" marginHeight="0" marginWidth="0" onLoad={() => setLoading(false)}>Loading…</iframe>
                 }
                 {
                     activeApp === "camp" &&
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5BONlP9y6koiwFACn9NxcRxuGZntopbEs_y4kGDm_aHwAFQ/viewform?embedded=true" 
-                    width="100%" height="1969" frameBorder="0" marginHeight="0" marginWidth="0" onLoad={() => setLoading(false)}>Loading…</iframe>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdoFSjHFfUglAvjkkbDaMIIqbnRvSvA7X15c00Bie0fYpyKxA/viewform?embedded=true"
+                     width="100%" height="1969" frameBorder="0" marginHeight="0" marginWidth="0" onLoad={() => setLoading(false)}>Loading…</iframe>
                 }
                 </div>
             </div>

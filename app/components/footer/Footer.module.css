@@ -50,3 +50,22 @@
     width: 100%;
     left: 0;
 }
+
+.mobileNavList {
+    display: none;
+}
+
+.mobileNavList .navListItem {
+    text-align: center;
+    margin-top: 8px;
+}
+
+@media (max-width:576px) {
+    .mobileNavList {
+        display: block;
+    }
+
+    .navList {
+        display: none;
+    }
+}

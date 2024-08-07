@@ -55,3 +55,16 @@
     background-color: rgb(24,24,24);
     color: white;
 }
+
+
+@media (max-width:762px) {
+    .donateContainer {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 24px 80px;
+    }
+
+    .btn {
+        margin-top: 16px;
+    }
+}

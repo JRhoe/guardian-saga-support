@@ -32,6 +32,21 @@ const Footer = () => {
                         </a>
                     </li>
                 </ul>
+                <ul className={styles.mobileNavList}>
+                    <li className={styles.navListItem}>
+                        <Link className={styles.navLink} href="/">
+                            Home
+                        </Link>
+                    </li>
+                    <li className={styles.navListItem}>
+                        <a 
+                        className={`${styles.navLink} ${styles.navPrax}`} 
+                        href="https://thepraxeum.com/"
+                        target='_blank'>
+                            The Praxeum
+                        </a>
+                    </li>
+                </ul>
                 <div className={styles.title}>
                 <p>2024 Guardian Saga Support</p>
                 <p>&copy; all rights reserved</p>

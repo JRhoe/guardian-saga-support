@@ -85,7 +85,31 @@
     }
 }
 
+@keyframes tabletMovement {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-150vw);
+    }
+}
+
+@keyframes mobileMovement {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-200vw);
+    }
+}
+
 @media (max-width:992px) {
+    .container {
+        padding-top: 24px;
+    }
+    
     .row {
         flex-direction: column;
     }
@@ -105,8 +129,37 @@
     }
 }
 
+@media (max-width:768px) {
+    
+    .container {
+        padding-top: 24px;
+    }
+
+    .bannerImg {
+        height: auto;
+        width: 150vw;
+    }
+
+    .bannerMain {
+        animation: tabletMovement 60s infinite linear;
+    }
+}
+
 @media (max-width:576px) {
     .applicationLinks {
         justify-content: center;
+    }
+
+    .container {
+        padding-top: 24px;
+    }
+
+    .bannerImg {
+        height: auto;
+        width: 200vw;
+    }
+
+    .bannerMain {
+        animation: mobileMovement 60s infinite linear;
     }
 }

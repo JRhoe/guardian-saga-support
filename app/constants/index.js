@@ -6,25 +6,25 @@ import campImg from '../../public/PraxeumPics/Camp.jpg';
 export const applications = [
     {
         title: "Team Building Workshop",
-        requirements: ["non profit org", "attended workshops", "47 and older"],
+        requirements: ["Minimum of 8 attendees", "Ages 8-13 or Ages 14+", "Provide transpotation to San Jose, CA"],
         imgUrl: teamImg,
         link: "team"
     },
     {
         title: "Self-Defense Workshop",
-        requirements: ["non profit org", "attended workshops", "47 and older"],
+        requirements: ["Minimum of 12 attendees", "Ages 8-13 or Ages 14+", "Attended Team Building Workshop", "Each participant must have a partner of similar size"],
         imgUrl: defenseImg,
         link: "defense"
     },
     {
         title: "Scolarship for Classes",
-        requirements: ["non profit org", "attended workshops", "47 and older"],
+        requirements: ["Attened at least one workshop", "Reliable transpotation", "Live within 15 minutes of San Jose, CA"],
         imgUrl: classImg,
         link: "class"
     },
     {
-        title: "Scholarships for Camps",
-        requirements: ["non profit org", "attended workshops", "47 and older"],
+        title: "Scholarships for Summer Camps",
+        requirements: ["Attended at least one workshop", "Reliable transpotation", "Ages 8-14"],
         imgUrl: campImg,
         link: "camp"
     },
