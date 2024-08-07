@@ -69,3 +69,12 @@
     transform: translateY(15px);
   }
 }
+
+@media (max-width:768px) {
+    .headerText {
+        font-size: 48px;
+    }
+    .headerContainer {
+        left:10%
+    }
+}

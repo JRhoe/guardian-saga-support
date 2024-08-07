@@ -10,9 +10,9 @@ const Events = ({title, date, para, link, direction, index}) => {
                 <p className={styles.para}>
                     {para}
                 </p>
-                <div className={styles.linkWrapper}>
+                {/* <div className={styles.linkWrapper}>
                     <a href={link} className={styles.linkText}>Read More</a>
-                </div>
+                </div> */}
             </div>
             <div className={styles.eventCircle}></div>
             <div className={styles.eventArrow}></div>

@@ -29,7 +29,7 @@
 }
 
 .section {
-    width: calc(100%/3);
+    width: calc((100%/3));
     height: 550px;
     margin: 16px;
     position: relative;
@@ -43,7 +43,7 @@
 }
 
 .praxImg { 
-    width: auto;
+    width: 100%;
     height: 100%;
 }
 
@@ -93,6 +93,7 @@
 .section:hover .about {
     opacity: 1;
 }
+
 .section:hover .aboutTextWrapper {
     transform: translateY(0);
 }
@@ -113,4 +114,61 @@
     margin-top: 16px;
     font-weight: 300;
     font-size: 16px;
+}
+
+@media (max-width:1200px) { 
+    .section {
+        height: 450px;
+    }
+
+    .aboutTitle {
+        font-size: 24px;
+    }
+
+    .aboutPara {
+        font-size: 16px;
+    }
+
+    .section .about {
+        padding: 32px;
+    }
+}
+
+@media (max-width:992px) {
+    .section {
+        height: 350px;
+    }
+
+    .sectionText h1 {
+        font-size: 24px;
+    }
+
+    .section .about {
+        padding: 24px;
+    }
+}
+
+@media (max-width:762px) {
+    .imgContainer {
+        flex-wrap: wrap;
+    }
+
+    .section {
+        width: 100%;
+        max-width: 300px;
+        height: 450px;
+    }
+
+    .section .about {
+        display: block;
+        padding: 24px;
+    }
+
+    .section:hover .sectionText {
+        opacity: 0;
+    }
+
+    .section:hover .aboutTextWrapper {
+        transform: translateY(225px);
+    }
 }

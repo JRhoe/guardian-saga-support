@@ -62,7 +62,7 @@ const Page = () => {
                     </div>
                 </div>
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-                <div className={styles.applicationWrapper}>
+                <div id="application" className={styles.applicationWrapper}>
                 {loading &&
                     <div className={styles.skeletonApp}>
                         {/* <span className="material-symbols-outlined">
@@ -76,22 +76,22 @@ const Page = () => {
                 {
                     activeApp === "team" &&
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5BONlP9y6koiwFACn9NxcRxuGZntopbEs_y4kGDm_aHwAFQ/viewform?embedded=true" 
-                    width="800" height="1969" frameBorder="0" marginHeight="0" marginWidth="0" onLoad={() => setLoading(false)}>Loading…</iframe>
+                    width="100%" height="1969" frameBorder="0" marginHeight="0" marginWidth="0" onLoad={() => setLoading(false)}>Loading…</iframe>
                 }
                 {
                     activeApp === "defense" &&
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5BONlP9y6koiwFACn9NxcRxuGZntopbEs_y4kGDm_aHwAFQ/viewform?embedded=true" 
-                    width="800" height="1969" frameBorder="0" marginHeight="0" marginWidth="0" onLoad={() => setLoading(false)}>Loading…</iframe>
+                    width="100%" height="1969" frameBorder="0" marginHeight="0" marginWidth="0" onLoad={() => setLoading(false)}>Loading…</iframe>
                 }
                 {
                     activeApp === "class" &&
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5BONlP9y6koiwFACn9NxcRxuGZntopbEs_y4kGDm_aHwAFQ/viewform?embedded=true" 
-                    width="800" height="1969" frameBorder="0" marginHeight="0" marginWidth="0" onLoad={() => setLoading(false)}>Loading…</iframe>
+                    width="100%" height="1969" frameBorder="0" marginHeight="0" marginWidth="0" onLoad={() => setLoading(false)}>Loading…</iframe>
                 }
                 {
                     activeApp === "camp" &&
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5BONlP9y6koiwFACn9NxcRxuGZntopbEs_y4kGDm_aHwAFQ/viewform?embedded=true" 
-                    width="800" height="1969" frameBorder="0" marginHeight="0" marginWidth="0" onLoad={() => setLoading(false)}>Loading…</iframe>
+                    width="100%" height="1969" frameBorder="0" marginHeight="0" marginWidth="0" onLoad={() => setLoading(false)}>Loading…</iframe>
                 }
                 </div>
             </div>

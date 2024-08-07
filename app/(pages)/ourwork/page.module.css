@@ -8,6 +8,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    padding: 0 24px;
 }
 
 .textWrapper{
@@ -49,7 +50,7 @@
 
 .applicationWrapper{
     width: 50%;
-    
+    padding: 24px;
 }
 
 .skeletonApp {
@@ -71,6 +72,7 @@
 .bannerMain {
     display: flex;
     animation: bannerMovement 60s infinite linear;
+    margin-top: 60px;
 }
 
 @keyframes bannerMovement {
@@ -80,5 +82,31 @@
 
     100% {
         transform: translateX(-80vw);
+    }
+}
+
+@media (max-width:992px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .textWrapper {
+        width: 100%;
+        max-width: none;
+    }
+
+    .applicationWrapper {
+        width: 100%;
+        max-width: none;
+    }
+
+    .skeletonApp {
+        margin: 0;
+    }
+}
+
+@media (max-width:576px) {
+    .applicationLinks {
+        justify-content: center;
     }
 }

@@ -1,6 +1,7 @@
 .container {
     background-color: rgba(241, 239, 220, 0.267);
     padding: 64px 0;
+    margin-top: 60px;
 } 
 
 .row {

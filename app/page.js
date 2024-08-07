@@ -6,7 +6,7 @@ import Donate from "./components/home/donate/Donate";
 
 export default function Home() {
   return (
-    <main>
+    <main className={styles.container}>
       <Header />
       <Mission />
       <Praxeum />

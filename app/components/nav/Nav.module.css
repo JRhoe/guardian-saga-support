@@ -1,6 +1,10 @@
 .navHolder {
     width:100vw;
     background-color: rgba(24, 24, 24);
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 100;
 }
 
 .nav {
@@ -11,7 +15,7 @@
     align-items: center;
     margin: 0 auto;
     height: 60px;
-    padding: 0 40;
+    padding: 0 40px;
 }
 
 .logoLink {
@@ -106,4 +110,19 @@
 
 .dropdownWrapper .navLink {
     font-size: 14px;
+}
+
+.mobileMenu {
+    display: none;
+    height: 100%;
+}
+
+@media (max-width:762px) {
+    .nav {
+        display: none;
+    }
+
+    .mobileMenu {
+        display: block;
+    }
 }

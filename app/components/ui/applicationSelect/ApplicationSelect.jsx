@@ -39,7 +39,7 @@ const ApplicationSelect = ({title, requirements, linkFunction,imgUrl}) => {
                         </ul>
                     </div>
                     <div className={styles.linkWrapper}>
-                        <h3 onClick={linkFunction} className={styles.link}>Apply Now</h3>
+                        <a href="#application" onClick={linkFunction} className={styles.link}>Apply Now</a>
                     </div>
                 </div>
             </div>

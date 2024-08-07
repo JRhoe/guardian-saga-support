@@ -111,3 +111,30 @@
         transform: translateX(-223%);
     }
 }
+
+@media (max-width:992px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .statement {
+        width:100%;
+        max-width:none;
+    }
+
+    .imgCaraWrapper {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+@media (max-width:576px) {
+    .main {
+        padding: 0;
+    }
+
+    .imgCara {
+        border-radius: 20px 0 0 20px;
+        border: none;
+    }
+}

@@ -23,10 +23,6 @@
     justify-content: end;
 }
 
-.right {
-    left:50%
-}
-
 .eventCircle {
     height: 32px;
     width: 32px;
@@ -36,19 +32,23 @@
     top: 30%;
 }
 
+.eventArrow {
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 30%;
+}
+
+.right {
+    left:50%
+}
+
 .left .eventCircle {
     right: -18px;
 }
 
 .right .eventCircle {
     left: -14px;
-}
-
-.eventArrow {
-    position: absolute;
-    height: 0;
-    width: 0;
-    top: 30%;
 }
 
 .left .eventArrow {
@@ -78,5 +78,29 @@
     100% {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@media (max-width: 762px) {
+    .eventContainer {
+        width: 90%;
+    }
+
+    .right {
+        left: 0;
+    }
+
+    .right .eventCircle {
+        right: -18px;
+        left: auto;
+    }
+
+    .right .eventArrow {
+        border: none;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 15px solid white;
+        right: 25px;
+        left: auto;
     }
 }

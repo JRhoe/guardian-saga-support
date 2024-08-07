@@ -32,27 +32,27 @@ export const applications = [
 
 export const events = [
     {
-        title:"placeholder",
-        date: "December 2023",
-        para: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus pariatur unde vel non, repellat vero, eligendi fugiat molestias distinctio dolores quo aspernatur similique id. Perferendis consectetur est quisquam voluptate incidunt.",
+        title:"FLY Workshop",
+        date: "May 2023",
+        para: "Fresh Lifelines for Youth",
         link: ""
     },
     {
-        title:"placeholder",
-        date: "December 2023",
-        para: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus pariatur unde vel non, repellat vero, eligendi fugiat molestias distinctio dolores quo aspernatur similique id. Perferendis consectetur est quisquam voluptate incidunt.",
+        title:"FCSN Workshop",
+        date: "January 2024",
+        para: "Friends of Children with Special Needs",
         link: ""
     },
     {
-        title:"placeholder",
-        date: "December 2023",
-        para: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus pariatur unde vel non, repellat vero, eligendi fugiat molestias distinctio dolores quo aspernatur similique id. Perferendis consectetur est quisquam voluptate incidunt.",
+        title:"FCSN 2nd Workshop",
+        date: "May 2024",
+        para: "Friends of Children with Special Needs",
         link: ""
     },
     {
-        title:"placeholder",
-        date: "December 2023",
-        para: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus pariatur unde vel non, repellat vero, eligendi fugiat molestias distinctio dolores quo aspernatur similique id. Perferendis consectetur est quisquam voluptate incidunt.",
+        title:"AICRC Workshop",
+        date: "July 2024",
+        para: "American Indian Child Resource Center",
         link: ""
     },
 ]
